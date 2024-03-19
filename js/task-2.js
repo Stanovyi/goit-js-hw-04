@@ -5,7 +5,7 @@ const calcAverageCalories = days => {
     caloriesSum += day.calories;
   }
 
-  return caloriesSum / days.length;
+  return caloriesSum && caloriesSum / days.length;
 };
 
 console.log(
