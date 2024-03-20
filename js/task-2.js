@@ -1,7 +1,7 @@
 const calcAverageCalories = days => {
   let caloriesSum = 0;
 
-  for (let day of days) {
+  for (const day of days) {
     caloriesSum += day.calories;
   }
 
